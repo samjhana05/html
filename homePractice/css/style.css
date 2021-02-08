@@ -10,3 +10,37 @@ body{
     width: 80%;
     margin: auto;
 }
+.top-left{
+    width: 50%;
+    float: left;
+    line-height: 40px;
+    justify-content: space-between;
+}
+.top-left .fa{
+    color: red;
+    font-size: 12px;
+}
+.top-right{
+    width: 50%;
+    float: right;
+    line-height: 40px;
+    text-align: end;
+}
+.top-right .fa{
+    color: blue;
+    min-width: 50px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.companyName{
+    width: 20%;
+}
+.menu{
+    width: 60%;
+}
+.appointment{
+    width: 20%;
+}
