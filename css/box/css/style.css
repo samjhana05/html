@@ -1,0 +1,13 @@
+.mainBox{
+    height: 400px;
+    width: 60%;
+    background-color: lightgray;
+    /*margin: auto;*/
+    float: left;
+}
+.box1{
+    height: 350px;
+    width:80%;
+    background-color: red;
+    margin: 50px auto;
+}

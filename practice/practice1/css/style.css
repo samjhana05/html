@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color: lightgrey;
+}
+.top-header{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    background-color: lightgray;   
+}
+.top-left{
+    width: 40%;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.fa{
+    color: rgb(37, 178, 232);
+}
+.logo{
+    width: 20%;
+    height: 100px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.top-right{
+    width: 40%;
+    height: 100px;
+}
+.top-right ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-right ul li{
+    border-right: 1px solid black;
+    min-width: 55px;
+    text-align: center;
+}
+.top-right ul li:last-child{
+    border: none;
+}
+.top-right ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.top-right p{
+    text-align: end;
+}
+/* Menu Section  */
+.head2{
+    width: 100%;
+    background-color: #fe6400;
+}
+.menu{
+    width: 70%;
+    line-height: 30px;
+    margin: auto;
+    background-color: #fe6400;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.menu ul li{
+    padding: 0 10px 0 10px;
+}
+.menu ul li:hover{
+    background-color:gold;
+}
+.mainSection{
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    padding: 50px;
+}
+.mainSection p{
+    margin: 0;
+    padding: 0;
+}
+.service{
+    text-align: center;
+    background-color: white;
+}
+.service h2{
+    color: #5e529e;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #fe6400;
+    text-decoration-thickness: 3px;
+}
+.footer{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box-left{
+    width: 300px;
+    height: 120px;
+    background-color: lightblue;
+}
+.box-right{
+    width: 300px;
+    height: 120px;
+    background-color: lightblue;
+}

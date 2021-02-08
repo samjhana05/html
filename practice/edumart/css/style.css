@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Top Icon Section */
+.topSection{
+    width: 90%;
+    height: 30px;
+    background-color: black;
+    margin: auto;
+}
+.topSection .container{
+    width: 90%;
+    height: 30px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+}
+.topSection .container .leftSide{
+    width: 50%;
+    line-height: 30px;
+}
+.topSection .container .leftSide .fa{
+    color: rgb(138, 136, 136);
+    min-width: 50px;
+}
+.topSection .container .rightSide{
+    width: 50%;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.topSection .container .rightSide a{
+    text-decoration: none;
+    color: rgb(138, 136, 136);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.topSection .container .rightSide a:nth-child(5){
+    color: whitesmoke;
+}
+.topSection .container .rightSide a:last-child{
+    color: whitesmoke;
+}
+.topSection .container .rightSide a #usd{
+    border: none;
+    color: white;
+    background-color: black;
+}
+.topSection .container .rightSide a #english{
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+/* Logo and Login Section */
+.head2{
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    margin: auto;
+}
+.head2 .container{
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+.head2 .container .leftSide{
+    width: 250px;
+    height: 90px;
+}
+
+/* Menu Section */
+.menu{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(23, 164, 59);
+    margin: auto;
+}
+.menu .container{
+    width: 90%;
+    line-height: 50px;
+    background-color: rgb(23, 164, 59);
+    margin: auto;
+}
+.menu .container ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .container ul li{
+    position: relative;  
+}
+.menu .container ul li:hover{
+    background-color: gold;
+}
+.menu .container ul li ul{
+    position: absolute;
+    display: none;
+}
+.menu .container ul li:hover>ul{
+    display: block;
+    background-color: rgb(23, 164, 59);
+}
+.menu .container ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px;
+}
+.menu .container ul li ul li:hover>ul{
+    display: inline-block;
+}

@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.top-left{
+    width: 50%;
+    line-height: 50px;
+    color: lightslategray;
+    float: left;
+}
+.top-left a{
+    text-decoration: none;
+    color: lightslategray;
+}
+.top-menu{
+    width: 50%;
+    float: right;
+}
+.top-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+.top-menu ul li{
+    float: left;
+    min-width: 100px;
+    line-height: 50px;
+    border-right: 1px solid lightgrey;
+    text-align: center;
+}
+.top-menu ul li a{
+    text-decoration: none;
+    color: lightslategray;
+}
+.top-menu ul li:last-child{
+    border: none;
+}
+
+/* Logo and Company Name Section */
+.header{
+    margin: 10px 0 10px 0 ;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    flex-grow: 2;
+}
+.logo img{
+    width: 180px;
+    height: 100px;
+}
+.companyName{
+    background-color:rgb(7, 7, 129);
+    flex-grow: 50;
+}
+.companyName h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Main menu Section */
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 7, 129);
+    margin-bottom: 10px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    line-height: 50px;
+}
+.menu ul li:hover{
+    background-color: gray;
+}
+.menu ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+ /* Main Section */
+ .box{
+     width: 90%;
+     margin: auto;
+     display: flex;
+ }
+.sliderSection{
+     width: 70%;
+     height: 400px;
+     background-color: gray;
+}
+.sliderSection img{
+    width: 100%;
+    height: 100%;
+}
+.right-box{
+    width: 30%;
+    height: 400px;
+}
+.box1{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+}
+.box2{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+}
+/* Gallery Section */
+.gallery{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.image-box{
+    width: 23%;
+    height: 180px;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid darkblue;
+}
+/* Footer Section */
+.footerSection{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(7, 7, 129);
+}
+.footer{
+    display: flex;
+}
+.footer-box{
+    width: 25%;
+    height: 150px;
+    padding: 10px;
+    color: white;
+}
+.lastFooter{
+    border-top: 1px dotted white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Media */
+@media (max-width: 768px){
+    .top-header{
+        width: 100%;
+    }
+}

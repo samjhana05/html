@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    height: 800px;
+    background-color: lightgray;
+    margin: auto;
+}
+.menu1{
+    height: 60px;
+    float: left;
+    width: 40%;
+    background-color: darkblue;
+    text-align: center;
+}
+.menu1 a{
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    /*min-width: 100px;*/
+}
+.menu1 ul li:nth-child(2){
+    border: none;
+}
+.menu1 ul li:hover{
+    background: lightsteelblue;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold ;
+}
+.menu2{
+    height: 60px;
+    width: 60%;
+    background-color: darkblue;
+    float: right;
+    text-align: center;
+}
+.menu2 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu2 ul li{
+    float: left;
+    min-width: 100px;
+    line-height: 50px;
+    border-right: 1px solid white;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    /*margin: 0 0 0 150px;*/
+}
+.menu2 ul li:first-child{
+    margin-left: 300px;
+}
+.menu2 ul li:nth-child(3){
+    border: none;
+}
+.menu2 ul li:hover{
+    background: lightsteelblue;
+}
+.logo{
+    float: left;
+    height: 100px;
+    width: 20%;
+}
+.companyName{
+    float: right;
+    height: 100px;
+    width: 80%;
+    background-color: lightskyblue;
+}
+.section1{
+    float: left;
+    height: 400px;
+    width: 60%;
+    background-color: lightsteelblue;
+}
+.section1 .image1{
+    height: 90%;
+    width: 90%;
+    margin: 20px auto;
+}
+.section2{
+    float: right;
+    height: 200px;
+    width: 40%;
+    background-color: blue;
+}
+.section2 .image2{
+    height: 90%;
+    width: 90%;
+    margin: 10px auto;
+}
+.section3{
+    float: right;
+    height: 200px;
+    width: 40%;
+    background-color: lightseagreen;
+}
+.section3 .image3{
+    height: 90%;
+    width: 90%;
+    margin: 10px auto;
+}
+.section4{
+    float: left;
+    height: 150px;
+    width: 25%;
+    background-color: #db7d9d;
+}
+.section5{
+    float: left;
+    height: 150px;
+    width: 25%;
+    background-color: lightslategray;
+}
+.section6 {
+    float: left;
+    height: 150px;
+    width: 25%;
+    background-color: #e82e6d;
+}
+.section7 {
+    float: right;
+    height: 150px;
+    width: 25%;
+    background-color: #140b8d;
+}
+.footer{
+    float: left;
+    height: 100px;
+    width: 100%;
+    background-color: darkblue;
+}

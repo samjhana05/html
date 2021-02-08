@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 900px;
+    height: 700px;
+    background-color: lightgray;
+    margin: auto;
+}
+.sectionA{
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+    float: left;
+}
+.sectionB{
+    width: 50%;
+    height: 100px;
+    background-color: lightpink;
+    float: right;
+}
+.sectionC{
+    width: 50%;
+    height: 100px;
+    background-color: #7c47ae;
+    float: right;
+}
+.sectionD{
+    width: 25%;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+.sectionE{
+    width: 25%;
+    height: 200px;
+    background-color: pink;
+    float: left;
+}
+.sectionF{
+    width: 50%;
+    height: 400px;
+    background-color: lightseagreen;
+    float: right;
+}
+.sectionG{
+    width: 50%;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+.footer{
+    width: 25%;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
