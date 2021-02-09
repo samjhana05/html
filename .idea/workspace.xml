@@ -3,8 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="ac7781ad-6feb-40a9-aab2-351410028add" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homePractice/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homePractice/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/box/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/box/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropdownmenu/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropdownmenu/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropdownmenu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexbox/style3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexbox/task3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexbox/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexbox/tempstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font/fstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/marginpadding/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/marginpadding/margin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/position/position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/position/positionstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/selectors/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/selectors/selectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/courses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/image/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/image/viber_image_2020-12-10_08-08-23_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/image/viber_image_2020-12-10_08-08-27_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/image/web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/image/webdesign.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/listing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/abc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/table/iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/table_task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/js/custom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +88,8 @@
       <workItem from="1611028887933" duration="639000" />
       <workItem from="1611316390210" duration="52000" />
       <workItem from="1612757008000" duration="11259000" />
+      <workItem from="1612837728231" duration="88000" />
+      <workItem from="1612837818785" duration="6573000" />
     </task>
     <servers />
   </component>
