@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-container{
+    width: 100%;
+    height: 40px;
+    background: #000000;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.logo{
+    width: 105px;
+    height: 40px;
+}
+.logo img{
+    width: 75%;
+    height: 65%;
+}
+.sign-in{
+    width: 177px;
+    height: 40px;
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+    padding-right: 10px;
+}
+.sign-in .bi {
+    color: white;
+}
+.sign-in a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.menu{
+    width: 775px;
+    color: white;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+
+}
+.menu ul li{
+    border-right: 1px solid darkgrey;
+    min-width: 65px;
+}
+.menu ul li>a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.menu ul li a .bi{
+    padding-right: 10px;
+    color: white;
+    font-size: 8px;
+}
+.menu ul li a .gap{
+    padding-right: 10px;
+}
+.search{
+    width: 200px;
+    text-align: center;
+}
+.search input{
+    width: 150px;
+    height: 27px;
+    margin-right: -27px;
+}
+.search .bi{
+    color: black;
+    background: white;
+    font-size: 15px;
+    padding: 0;
+}
+.search .place::placeholder{
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+.modules-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.modules-title .welcome{
+    color: #4a4a4a;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+.modules-title .date{
+    color: #8c8c8c;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.first-section{
+    width: 50%;
+    float: left;
+    height: 345px;
+    padding-right: 8px;
+}
+.first-section img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.first-section img:hover{
+    opacity: 0.8;
+}
+.first-section .text-area{
+    position: absolute;
+    top: 300px;
+    max-width: 650px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.first-section .text-area a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    border-left: 3px solid #ed1a1a;
+}
+.first-section .text-area a:hover{
+    text-decoration: underline;
+}
+.second-section{
+    width: 50%;
+    float: right;
+    height: 345px;
+}
+.second-section .top-left{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 0 8px 4px 8px;
+}
+.top-left img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.top-left .text-area{
+    position: absolute;
+    top: 190px;
+    max-width: 300px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.top-left .text-area a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    border-left: 3px solid dodgerblue;
+}
+.top-left .text-area a:hover{
+    text-decoration: underline;
+}
+.second-section .top-right{
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding: 0 0 4px 8px;
+}
+.top-right img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.top-right .text-area{
+    position: absolute;
+    top: 190px;
+    max-width: 250px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.top-right .text-area a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    border-left: 3px solid #d69729;
+}
+.top-right .text-area a:hover{
+    text-decoration: underline;
+}
+.second-section .bottom-left{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 4px 8px 0 8px;
+}
+.bottom-left img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bottom-left .text-area{
+    position: absolute;
+    top: 365px;
+    max-width: 250px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.bottom-left .text-area a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    border-left: 3px solid #f7dc52;
+}
+.bottom-left .text-area a:hover{
+    text-decoration: underline;
+}
+.second-section .bottom-right{
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding: 4px 0 0 8px;
+}
+.bottom-right img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bottom-right .text-area{
+    position: absolute;
+    top: 365px;
+    max-width: 250px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.bottom-right .text-area a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    border-left: 3px solid darkblue;
+}
+.bottom-right .text-area a:hover{
+    text-decoration: underline;
+}

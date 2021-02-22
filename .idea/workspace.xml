@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7781ad-6feb-40a9-aab2-351410028add" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap/row-column/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/row-column/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/alert-components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-project/assets/bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-project/assets/bootstrap/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-project/assets/custom/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-project/assets/custom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-project/assets/custom/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-project/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,6 +53,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amazi\Desktop\html\web-project\assets\bootstrap\js" />
+      <recent name="C:\Users\amazi\Desktop\html\web-project\assets\bootstrap" />
+      <recent name="C:\Users\amazi\Desktop\html\web-project\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +77,13 @@
       <workItem from="1612885733365" duration="4542000" />
       <workItem from="1613717609704" duration="6264000" />
       <workItem from="1613750000436" duration="3929000" />
-      <workItem from="1613825513601" duration="7412000" />
+      <workItem from="1613825513601" duration="9067000" />
+      <workItem from="1613870895576" duration="809000" />
+      <workItem from="1613892136590" duration="4772000" />
+      <workItem from="1613926672647" duration="2037000" />
+      <workItem from="1613953473305" duration="605000" />
+      <workItem from="1613958685276" duration="5843000" />
+      <workItem from="1613966382939" duration="11540000" />
     </task>
     <servers />
   </component>
